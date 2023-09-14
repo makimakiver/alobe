@@ -25,3 +25,6 @@ function Home() {
 };
 
 export default Home;
+
+
+// // I commented out and I wrote understandable code such as "console.log"

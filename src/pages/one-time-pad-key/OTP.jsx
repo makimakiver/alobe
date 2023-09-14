@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
+import "./OTP.css"
 
 
-
-
-function OTP() {
+function OneTimePad() {
   const [input, setInput] = useState(['', '', '', '', '', '']);
 
   const handleInputChange = (e, index) => {
@@ -30,23 +29,28 @@ function OTP() {
       console.log("Please enter a 6-digit number.");
     }
   };
+  console.log("hello world from OTP file")
 
   return (
     <div className="box-container">
-      {input.map((_, index) => (
-        <input
-          type="text"
-          maxLength="1"
-          className="input-box"
-          key={index}
-          id={`box${index + 1}`}
-          value={input[index]}
-          onChange={(e) => handleInputChange(e, index)}
-        />
-      ))}
-      <button onClick={handleSubmit}>Submit</button>
+      <div className="otpTitle"> Tuba </div>
+      <div className="otptitlesec"> Enter OTP: </div>
+      <div className="box">
+        {input.map((_, index) => (
+          <input
+            type="text"
+            maxLength="1"
+            className="input-box"
+            key={index}
+            id={`box${index + 1}`}
+            value={input[index]}
+            onChange={(e) => handleInputChange(e, index)}
+          />
+        ))}
+        <button onClick={handleSubmit}>Submit</button>
+      </div>
     </div>
   );
 };
 
-export default OTP
+export default OneTimePad

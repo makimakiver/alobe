@@ -18,7 +18,6 @@ function Timeline({ username }) {
     };
     fetchPosts()
   }, [username, user._id]);
-  console.log(typeof(username))
   if(user.username === username || typeof(username)==="undefined"){
   return (
     <div className="timeline">

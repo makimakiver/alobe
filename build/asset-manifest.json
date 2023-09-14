@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/tuba_env/static/css/main.82967808.css",
+    "main.js": "/tuba_env/static/js/main.ae297951.js",
+    "static/media/remixicon.svg?t=1687271883607": "/tuba_env/static/media/remixicon.636515c9a8963df4380d.svg",
+    "static/media/fa-solid-900.svg": "/tuba_env/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/fa-brands-400.svg": "/tuba_env/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/remixicon.eot?t=1687271883607": "/tuba_env/static/media/remixicon.83e9a22ce7f199999169.eot",
+    "static/media/remixicon.ttf?t=1687271883607": "/tuba_env/static/media/remixicon.0bcb16fc20c3d365da14.ttf",
+    "static/media/fa-solid-900.eot": "/tuba_env/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/tuba_env/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/remixicon.woff?t=1687271883607": "/tuba_env/static/media/remixicon.3f0f84f17d39491e07ff.woff",
+    "static/media/fa-regular-400.svg": "/tuba_env/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/remixicon.woff2?t=1687271883607": "/tuba_env/static/media/remixicon.85992a032c7668836563.woff2",
+    "static/media/fa-brands-400.eot": "/tuba_env/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/tuba_env/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/tuba_env/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
+    "static/media/fa-brands-400.woff": "/tuba_env/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/tuba_env/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/tuba_env/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/fa-regular-400.eot": "/tuba_env/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/tuba_env/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
+    "static/media/fa-regular-400.woff": "/tuba_env/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/fa-regular-400.woff2": "/tuba_env/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
+    "index.html": "/tuba_env/index.html",
+    "main.82967808.css.map": "/tuba_env/static/css/main.82967808.css.map",
+    "main.ae297951.js.map": "/tuba_env/static/js/main.ae297951.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82967808.css",
+    "static/js/main.ae297951.js"
+  ]
+}

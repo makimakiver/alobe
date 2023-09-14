@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Topbar from '../../components/topbar/Topbar'
 import Sidebar from '../../components/sidebar/Sidebar'
 import "./chat.css"
@@ -15,6 +15,7 @@ import {
   MessageInput,
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
+import axios from 'axios'
 
 function Chat() {
   const MY_API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
@@ -40,20 +41,7 @@ function Chat() {
     setTyping(true)
     // process message to chatGPT
     await processMessageToChatGPT(newMessages);
-  }
-  // async function startConversation(userMessage) {
-  //   const systemPrompt = "You are a helpful assistant.";  
-  //   const response = await openai.createCompletion({
-  //     model: 'davinci',
-  //     prompt: systemPrompt + "\n" + userMessage + "\n",
-  //     max_tokens: 150
-  //   });
-  
-  //   console.log(response.choices[0].text.trim());
-  // }
-  
-  // startConversation(messages);
-  
+  }  
   async function processMessageToChatGPT(chatMessages) {
 
     let apiMessages = chatMessages.map((messageObject) => {
@@ -113,6 +101,15 @@ function Chat() {
       setTyping(false)
     });
   }
+  const [chatbot, setChatbot] = useState([]);
+  useEffect(() => {
+    const fetchChatbot = async () => {
+      const response = await axios.get(`/AI/all`) 
+      setChatbot(response.data)
+      // set post will add response data to Posts constant
+    };
+    fetchChatbot()
+  }, []);
   return (
     <>
     <Topbar toggle={toggle}/>
@@ -126,7 +123,9 @@ function Chat() {
             <input type="text" className="chatSearchInput" placeholder='search messages'/>
           </div>
           <div className="friendList">
-            <Friends />
+            {chatbot.map((bot) => (
+              <Friends robot={bot}/>
+            ))}
           </div>
         </div>
         <div className="chatRight">

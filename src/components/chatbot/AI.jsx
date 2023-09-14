@@ -48,7 +48,7 @@ function AI({bot}) {
                     </Link>
                     <MoreVert className='chatbotDetail'/>
                 </div>  
-                <img src="/assets/person/3.jpeg" alt="" className='chatbotImg' />
+                <img src={bot.ProfilePicture? PUBLIC_FOLDER+bot.ProfilePicture :PUBLIC_FOLDER+"/person/noAvatar.png"}  alt="" className='chatbotImg' />
                 <div className="chatbotMiddle">        
                     <div className="chatbotDescIntro">
                         <div className='In'>Description</div>

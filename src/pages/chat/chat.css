@@ -55,6 +55,8 @@
 }
 .friendList{
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .messageList{
     padding: 10px;

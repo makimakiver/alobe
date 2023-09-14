@@ -5,6 +5,7 @@ import Timeline from '../../components/timeline/TimeLine'
 import Trendbar from "../../components/trendbar/Trend"
 import Artefacts from '../../components/museums/Artefacts'
 import { Link } from 'react-router-dom'
+import "./aicreative.css"
 
 function AIcreative() {
   const [isOuvrir, setIsOuvrir] = useState(false);
@@ -18,7 +19,7 @@ function AIcreative() {
       <div className="creativeRight">
         <Trendbar/> 
         <Link to="/aicreationism">
-          <button>Hello</button>
+          <button className='aibox'>generate your original AI?</button>
         </Link>
       </div>
     </div> 

@@ -13,10 +13,8 @@ import { AuthContext } from "./state/AuthContext";
 import { useContext, useEffect, useState, CSSProperties} from "react";
 import PuffLoader from "react-spinners/ClipLoader";
 import "./App.css"
-import Sidebar from "./components/sidebar/Sidebar";
-import Topbar from "./components/topbar/Topbar";
 import Creationism from "./pages/createAI/Creationism";
-import OTP from "./pages/one-time-pad-key/OTP";
+import OneTimePad from "./pages/one-time-pad-key/OTP";
 
 function App() {
   const override: CSSProperties = {
@@ -60,7 +58,7 @@ function App() {
               <Route path="/aicreationism" element={<Creationism/>}/>
               <Route path="/edit/:username" element={<Edition/>}/>
               <Route path="/comment/:postId" element={<Comment/>}/>
-              <Route path="/otp" element={<OTP/>}/>
+              <Route path="/verification" element={<OneTimePad/>} />
             </Routes>
       </BrowserRouter>
       

@@ -60,7 +60,7 @@ function AIaccount() {
         <div className="aiprofileRightTop">
           <div className="aiprofileCover">
             <img src={PUBLIC_FOLDER+"/post/3.jpeg"} alt="" className="aiprofileCoverImg" />
-            <img src={PUBLIC_FOLDER+"/person/1.jpeg"} alt="" className="aiprofileUserImg" />
+            <img src={chatbot.ProfilePicture? PUBLIC_FOLDER+chatbot.ProfilePicture :PUBLIC_FOLDER+"/person/noAvatar.png"} alt="" className="aiprofileUserImg" />
           </div>
           <div className="aiprofileInfo">
             <span className='aiprofileInfoName'>{chatbot.AIname}</span>
