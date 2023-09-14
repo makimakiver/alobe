@@ -1,0 +1,103 @@
+.creation {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+.creationWrapper {
+    flex: 9.5;
+    background-color: #ffffff;
+    border: 1px none;
+    height: 832px;
+    position: relative;
+    width: 1280px;
+}
+  
+.creationAccount {
+    height: 356px;
+    left: 853px;
+    position: absolute;
+    top: 86px;
+    width: 351px;
+  }
+  
+.creationImg {
+    height: 311px;
+    left: 40px;
+    position: absolute;
+    top: 46px;
+    width: 311px;
+  }
+  
+.creationImgtxt {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 302px;
+  }
+.creationDescription{
+    display: flexbox;
+}
+.creationSeparator {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 57px;
+    width: 1280px;
+  }
+  
+.creationName {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 64px;
+    left: 62px;
+    position: absolute;
+    top: 149px;
+    width: 481px;
+  }
+  
+.creationNametxt {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 62px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 93px;
+    width: 244px;
+  }
+  
+.creationDesc {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 201px;
+    left: 62px;
+    position: absolute;
+    top: 342px;
+    width: 481px;
+  }
+  
+  .creationDesctxt {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 62px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 286px;
+    width: 244px;
+  }
+  
